@@ -1,0 +1,58 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-field {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+  }
+  
+  .submit-btn {
+    padding: 12px 14px;
+    background-color: #4caf50;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .input-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .input-item {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    width: 480px;
+  }
+  
+  .checkbox {
+    margin-right: 8px;
+  }
+  
+  .checked-text {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .unchecked-text {
+    color: #ffffff;
+  }
+  
+  .delete-btn {
+    padding: 4px 8px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
